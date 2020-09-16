@@ -31,6 +31,13 @@ I’m ambitious and hardworking, so i believe i can fly (or start coding like a 
 - Node.js
 
 ## Projects
+- [Tribute page](https://codepen.io/ivan2be/pen/LYGqpBw)
+
+- [Survey](https://codepen.io/ivan2be/pen/vYLPyGW)
+
+- [CSS Documentation Page](https://codepen.io/ivan2be/pen/wvGzedx)
+
+- [Product Landing Page](https://codepen.io/ivan2be/pen/LYGaBdX)
 
 
 
