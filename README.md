@@ -1,2 +1,3 @@
 # rsschool-cv
-https://ivan2be.io/rsschool-cv/
+
+https://ivan2be.github.io/rsschool-cv/
