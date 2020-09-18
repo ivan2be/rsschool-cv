@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ivan Denisov</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83d1c70834.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0px;
+            font-family: 'Roboto', sans-serif;
+            color: #353535;
+        }
+
+        nav {
+          background-color: #861567;
+          color: #fff;
+          display: flex;
+          justify-content: flex-end;
+          padding: 15px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 100;
+        }
+
+        nav a {
+          color: #fff;
+          position: relative;
+          margin-left: 30px;
+          text-decoration: none;
+        }
+
+        nav a::after {
+          content: '';
+          border-bottom: 3px solid #fff;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: translateY(10px);
+          transition: transform 0.3s ease;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+        }
+
+        nav a:hover::after {
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        .content {
+            width: 50%;
+            margin: auto;            
+        }
+        h1 {
+            text-transform: uppercase;
+            font-size: 2.5em;
+            margin: auto;
+        }
+        h2 {
+            text-transform: uppercase;
+            color: #e18500;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            flex-wrap: wrap;
+            padding: 55px 0px 40px 0px;            
+        }       
+        .myphoto {
+            width: 150px;
+            border-radius: 50%;
+            margin: auto;
+        } 
+        .info {
+            margin: auto;
+        }
+        .location {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .contacts {
+            margin-bottom: 3px;
+        }
+        section {
+            margin-bottom: 30px;
+            line-height: 25px;
+        }
+
+        .project-tile {
+          margin: 10px;
+          max-width: 250px;
+          text-decoration: none;
+          transition: transform 0.3s ease;
+        }
+
+        .project-tile:hover {
+           transform: scale(1.1);
+        }
+
+        .project-tile img {
+          max-width: 100%;
+        }
+
+        .project-tile p {
+          font-size: 20px;
+          text-decoration: none;
+          margin-top: 10px;
+          color: #000;
+        }
+
+        .projects-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          max-width: 800px;
+          margin: 20px auto 0;
+        }
+
+        .bg-pink {
+          background-color: #A64253;
+          color: #fff;
+        }
+
+        .social-ul {
+          display: flex;
+          justify-content: center;
+          list-style-type: none;
+          flex-wrap: wrap;
+          padding: 30px;
+          margin: -25px;
+        }
+
+        .social-ul a {
+        border-radius: 50%;
+        border: 3px solid #fff;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0 10px;
+        height: 50px;
+        width: 50px;
+        text-decoration: none;
+        }
+
+        footer {
+          background-color: #861567;
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+        }
+
+        footer .fa-heart {
+          color: red;
+        }
+
+</style>
+</head>
+
+<body>
+  <nav id="navbar">
+    <a href="#welcome-section">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#social">Social</a>
+  </nav>
+    <div class="content">
+        <header>
+            <img class="myphoto" src="0111-01.jpeg" alt="myphoto">
+            <div class = "info">
+                <h1>Ivan Denisov</h1>
+                <div class = "location">Moscow, Russia</div>
+                <div class ="contacts"><a href="mailto:ivan2be@gmail.com">ivan2be@gmail.com</a></div>
+                <div class = "contacts">+79276222293</div>
+            </div>
+        </header>
+        <main>  
+           <section>
+                <h2>Summary</h2>
+                <hr>
+                <p>I have started in Front-End Development, i wanted to use these skills in my work.<br/> 
+                  Actually I am a cameraman and director of photography.
+                  Nowdays I want to develop myself in this way.</p>
+                  <p>I’m ambitious and hardworking, so i believe that everything will be in the right place. </p>
+           </section>
+           
+           <section>    
+            <h2>Education</h2>
+            <hr>
+          <h3>Omsk state university</h3>
+            <ul>
+              <li>Directing Departament, Bachelor’s Degree</li>
+            </ul>
+          <h3 id="self-education">Self education</h3>
+            <ul>
+              <li>Complete html and css courses on <a href="https://htmlacademy.ru/">html.academy</a></li>
+            <li>Some courses on <a href="https://www.freecodecamp.org/">freecodecamp</a></li>
+            </ul>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <hr>
+                <section>    
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                  </ul>
+            </section>
+            <section>
+                <h2>Languages</h2>
+                <hr>
+                <ul>
+                  <li>English(B2)</li>
+                  <li>Polish(B2)</li>
+                  <li>German(B1)</li>
+                  <li>Russian(native)</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+              <h2>Projects</h2>
+                <div class="projects-container">
+        
+                <div class="project-tile">
+        
+                <a href="https://codepen.io/ivan2be/details/LYGqpBw"
+                  target="_blank" class="project project-tile">
+        
+                <img src="https://pbs.twimg.com/profile_images/1174951375374958593/e0SjNTdl_400x400.jpg" alt="project"/>
+                  <p class="project-title">Tribute page</p>
+                   </a>
+          </div>
+        
+           <div class="project-tile">
+        
+        <a href="https://codepen.io/ivan2be/details/vYLPyGW"
+        target="_blank" class="project project-tile">
+        
+        <img src="https://vignette.wikia.nocookie.net/angrybirds/images/3/30/RedEvolution.png/revision/latest?cb=20190217052216" alt="project"/>
+            <p class="project-title">Survey</p>
+        </a>
+          </div>  
+        
+        <div class="project-tile">
+        
+        <a href="https://codepen.io/ivan2be/pen/LYGaBdX"
+        target="_blank" class="project project-tile">
+        
+        <img src="https://github.com/florinpop17/app-ideas/raw/master/app-ideas.png" alt="project"/>
+            <p class="project-title">Product Landing Page</p>
+        </a>
+          </div> 
+          
+            <div class="project-tile">
+        
+        <a href="https://codepen.io/ivan2be/pen/wvGzedx"
+        target="_blank" class="project project-tile">
+        
+        <img src="https://assets.codepen.io/2325080/internal/screenshots/pens/aaVQdm.default.png?fit=cover&format=auto&ha=false&height=720&quality=75&v=2&version=1536521864&width=1279" alt="project"/>
+            <p class="project-title">CSS Documentation</p>
+        </a>
+          </div> 
+              </div>
+        </section>
+      </div>  
+        <section id="social" class="bg-pink">
+          <h2>Social Media</h2>
+          <ul class="social-ul">
+            <li><a href="https://twitter.com/ivan2be" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/ivan2be/?hl=ru" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/ivan.denisov.73" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a id="profile-link" href="https://github.com/ivan2be" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://ru.linkedin.com/in/ivan-denisov-64260871" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </section>
+        </main>
+</body>
+<footer>Made with <i class="fas fa-heart"></i> by ivan2be</footer>
+</html>
